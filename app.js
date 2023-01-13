@@ -1,3 +1,5 @@
+require("newrelic");
+
 
   const express = require("express")
   const app = express()
@@ -10,6 +12,7 @@
 
         id: "001",
         name: "atul",
+        lname: "pandey",
         role: "DevOps",
 
       },
