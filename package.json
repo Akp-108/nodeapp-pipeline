@@ -1,0 +1,22 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akp-108/nodeapp-pipeline.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akp-108/nodeapp-pipeline/issues"
+  },
+  "homepage": "https://github.com/Akp-108/nodeapp-pipeline#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
