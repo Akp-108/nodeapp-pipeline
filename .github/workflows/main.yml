@@ -23,3 +23,9 @@ jobs:
           description: "Automated Deployment via Github Actions"
           region: ${{ secrets.NEW_RELIC_REGION }}
           user: "${{ github.actor }}"
+      - name: Annotate
+        uses: Attest/annotations-action@v0.1.0
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          input: './annotations.json'
+          title: 'Annotate Files'        
