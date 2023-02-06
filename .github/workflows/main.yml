@@ -24,9 +24,8 @@ jobs:
           region: ${{ secrets.NEW_RELIC_REGION }}
           user: "${{ github.actor }}"
           
-      - name: Download a single artifact
-        uses: actions/download-artifact@v3
-        with:
-          name: my-artifact
+      - name: Download a Build Artifact
+        uses: actions/download-artifact@v3.0.2
+
           
           
